@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{ED2DE201-4FB3-4069-AA7F-C523673864E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>IngredientStorage.Module1</StartupObject>
+    <StartupObject>IngredientStorage.Main</StartupObject>
     <RootNamespace>IngredientStorage</RootNamespace>
     <AssemblyName>IngredientStorage</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -68,7 +68,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="Main.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
